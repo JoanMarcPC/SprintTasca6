@@ -12,6 +12,7 @@ generic1.setTercerDato(50);
 generic1.printGeneric();
 GenericMethods<Object> generic2 = new GenericMethods<Object>();
 generic2.printGenericAmbParametres(50,p,"hola");
+//No entenc com agafa el parametre 50 si 
 	}
 
 }
