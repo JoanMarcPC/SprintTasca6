@@ -20,7 +20,7 @@ public class Persona {
 	}
 
 	public String getCognom() {
-		return cognom;
+		return cognom;//
 	}
 
 	public void setCognom(String cognom) {

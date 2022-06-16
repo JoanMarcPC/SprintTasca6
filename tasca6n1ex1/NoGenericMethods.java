@@ -1,38 +1,38 @@
 package tasca6n1ex1;
 
 public class NoGenericMethods {
-	private String nom1;
-	private String nom2;
-	private String nom3;
+	private Persona p1;
+	private Persona p2;
+	private Persona p3;
 
-	public NoGenericMethods(String nom1, String nom2, String nom3) {
-		this.nom1 = nom1;
-		this.nom2 = nom2;
-		this.nom3 = nom3;
+	public NoGenericMethods(Persona p1, Persona p2, Persona p3) {
+
+		this.p1 = p1;
+		this.p2 = p2;
+		this.p3 = p3;
 	}
 
-	public String getNom1() {
-		return nom1;
+	public Persona getP1() {
+		return p1;
 	}
 
-	public void setNom1(String nom1) {
-		this.nom1 = nom1;
+	public void setP1(Persona p1) {
+		this.p1 = p1;
 	}
 
-	public String getNom2() {
-		return nom2;
+	public Persona getP2() {
+		return p2;
 	}
 
-	public void setNom2(String nom2) {
-		this.nom2 = nom2;
+	public void setP2(Persona p2) {
+		this.p2 = p2;
 	}
 
-	public String getNom3() {
-		return nom3;
+	public Persona getP3() {
+		return p3;
 	}
 
-	public void setNom3(String nom3) {
-		this.nom3 = nom3;
+	public void setP3(Persona p3) {
+		this.p3 = p3;
 	}
-
 }

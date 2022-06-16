@@ -1,4 +1,4 @@
-package tasca6n1ex2;
+package tasca6n2ex2;
 
 public class Persona {
 	private String nom;
@@ -20,7 +20,7 @@ public class Persona {
 	}
 
 	public String getCognom() {
-		return cognom;//
+		return cognom;
 	}
 
 	public void setCognom(String cognom) {
